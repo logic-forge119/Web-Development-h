@@ -1,0 +1,14 @@
+h1{
+  color: rgb(125, 14, 228);
+  border: 2px solid black ;
+  text-align: center;
+  background-color: pink;
+  font-weight: 700;
+}
+p{
+  background-color: rgb(170, 213, 50);
+  width: 100vw;
+  height: 175px;
+  color:black;
+  font-weight: 300;
+}
