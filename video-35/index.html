@@ -4,65 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>More on css selector</title>
-    <style>
-      /* .box:first-child{
-  color: blue;
-} */
-      /* .box::first-line{
-color: blueviolet;
- } */
-      /* .boxes *{
-  color: rgb(92, 202, 112);
-  border: 2px solid rgb(250, 9, 9);
-} */
-      /* [data-color="primary"]{
-  margin-top: 45px;
-} */
-      /* p,a,.box,[data-color="primary"]{
-  padding-top: 45px;
-} */
-      /* .box:nth-child(even){
-  color:rgb(194, 50, 50);
- } */
-      /* .box:nth-last-child(2) {
-        background-color: rgb(255, 0, 0);
-      } */
-
-      .boxes::before {
-        content: "Hey this is new developer in town!";
-        background-color: aqua;
-      }
-
-      .boxes::after {
-        content: "After completing this course, I will  be able to create new website!";
-        background-color: rgb(123, 149, 149);
-      }
-      ::selection{
-        color: white;
-        background-color: rgb(40, 26, 232);
-      }
-      .box::first-letter{
-        color: peru;
-        font-size: large;
-      }
-      input::placeholder{
-        color: brown;
-        font-size: 15px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="boxes">
       <div data-color="primary" class="box">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
       </div>
       <div class="box">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
       </div>
       <div class="box">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </div>
-      <input type="text" placeholder="Enter Your Name Here">
+      <input type="text" placeholder="Enter Your Name Here" />
     </div>
   </body>
 </html>

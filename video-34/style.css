@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.cards {
+  border: 2px solid blue;
+  display: flow-root;
+}
+img {
+  float: right;
+}
+.card {
+  border: 2px solid red;
+}
+.card:nth-child(3) {
+  background-color: blueviolet;
+  clear: right;
+}
